@@ -6,7 +6,7 @@ temp_animal_list = (txt1 + ', ' + txt2 + ', ' + txt3).split(', ')
 menu = None
 animals_dict = {}
 animals_str = ''
-no_results = "We didn'nt find any animal matching your search\n---------------"
+no_results = "We didn'nt find any animal matching your search"
 
 def adjust_data(animals_list):
     for animal in animals_list:
